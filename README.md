@@ -248,7 +248,7 @@ Business rules include corporate policies, government regulations, laws, industr
 ## 10. Related use cases
   <a name="related-use-cases--required"></a><a name="10.1"></a>
   - [10.1](#related-use-cases--required) Provide related use cases.
-    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;*s."
+    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
 
 **[⬆ back to top](#table-of-contents)**
 
