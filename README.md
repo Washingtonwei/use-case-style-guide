@@ -174,7 +174,7 @@ Use case action steps are sentences that form a use case's main success scenario
 
   <a name="action-steps--systen-internal-processing"></a><a name="6.2"></a>
   - [6.2](#action-steps--systen-internal-processing) Use the following wording and sentence structure to describe the system internal processing (Corresponds to Cockburn's validation step and internal change)
-    - The System validates, saves, records, calculates, updates, deletes, creates, retrieves, triggers ...
+    - The System validates, saves, records, calculates, updates, deletes, creates, retrieves, triggers . . .
 
   <a name="action-steps--system-interaction"></a><a name="6.3"></a>
   - [6.3](#action-steps--system-interaction) Use the following wording and sentence structure to describe an interaction started by the System (Corresponds to Cockburn's interaction between two actors)
@@ -182,7 +182,7 @@ Use case action steps are sentences that form a use case's main success scenario
     - The System alerts/warns/alarms . . . (This is used when something is about to break the business rule, or something is about the change the state of the system, usually occurs in extensions.)
     - The System asks the *&lt;Primary Actor&gt;* to enter . . . according to . . . defined in Associated Information of this use case.
     - The System prompts the *&lt;Primary Actor&gt;* . . . (The system knows some information that would help the user decide what to do next) or The System offers . . . options/methods/choices . . .
-    - The System notifies/sends *&lt;Secondary Actors&gt;* ...
+    - The System notifies/sends *&lt;Secondary Actors&gt;* . . .
 
   <a name="action-steps--system-to-system-interaction"></a><a name="6.4"></a>
   - [6.4](#action-steps--system-to-system-interaction) Use the following wording and sentence structure to describe an interaction between the System and another system in the environment (Corresponds to Cockburn's interaction between two actors)
