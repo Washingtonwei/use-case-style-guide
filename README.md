@@ -183,6 +183,7 @@ Use case action steps are sentences that form a use case's main success scenario
     - The System asks the *&lt;Primary Actor&gt;* to enter . . . according to . . . defined in Associated Information of this use case.
     - The System prompts the *&lt;Primary Actor&gt;* . . . (The system knows some information that would help the user decide what to do next) or The System offers . . . options/methods/choices . . .
     - The System notifies/sends *&lt;Secondary Actors&gt;* ...
+    - The System requests *&lt;Secondary Actors&gt;* ... (This is used when the System needs to interact with another system.)
 
   <a name="action-steps--system-to-system-interaction"></a><a name="6.4"></a>
   - [6.4](#action-steps--system-to-system-interaction) Use the following wording and sentence structure to describe an interaction between the System and another system in the environment (Corresponds to Cockburn's interaction between two actors)
