@@ -1105,11 +1105,11 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           <ul>
             <li>
               Warning 1: Dependent objects will be deleted along with
-              <em>&lt;whatever&gt;</em>
+              <em>&lt;whatever&gt;</em>.
             </li>
             <li>
               Warning 2: Due to deletion, the referring objects will be left
-              in limbo
+              in limbo.
             </li>
             <li>...</li>
           </ul>
@@ -1313,11 +1313,11 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           Disposition of the report after it is generated. The options
           available will be displayed in the system, sent to a recipient,
           downloaded to local disk, printed, stored somewhere for future
-          retrieval
+          retrieval.
         </li>
         <li>
           Format of the generated report. The options available will be PDF,
-          CSV, RTF, and HTML
+          CSV, RTF, and HTML.
         </li>
       </ul>
       Report generating algorithm: <br />
