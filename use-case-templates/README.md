@@ -72,11 +72,11 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
             <li>The User indicates to find <em>&lt;whatever&gt;</em>s.</li>
             <li>
               The System asks the User to enter search values according to
-              "Search criteria" defined in Associated Information of this use
+              the "Search criteria" defined in the Associated Information of this use
               case.
             </li>
             <li>
-              The User enters one or more search values and confirms she has
+              The User enters one or more search values and confirms that she has
               finished entering.
             </li>
             <li>
@@ -84,9 +84,9 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
               provided search criteria values.
             </li>
             <li>
-              The System displays matching <em>&lt;whatever&gt;</em>s according
-              to the "Search results display strategy" and "Sort criteria"
-              defined in Associated Information of this use case.
+              The System displays the matching <em>&lt;whatever&gt;</em>s according
+              to the "Search results display strategy" and the "Sort criteria"
+              defined in the Associated Information of this use case.
             </li>
             <li>Use case ends.</li>
           </ol>
@@ -98,23 +98,22 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           <b>4a. No matching is found</b> <br />
           4a1. The System alerts the User that no matching
           <em>&lt;whatever&gt;</em> is found. <br />
-          4a2. The User either chooses to UC: create a
-          <em>&lt;whatever&gt;</em> or terminate the use case or return to step
-          2 of normal flow. <br />
+          4a2. The User either chooses to <ins>UC-03: create a
+            <em>&lt;whatever&gt;</em></ins> or chooses to terminate the use case or chooses to return to step
+          2 of the normal flow. <br />
           <b
             >5a. The User chooses to select a different set of properties to
-            display matching <em>&lt;whatever&gt;</em>s</b
+            display the matching <em>&lt;whatever&gt;</em>s</b
           >
           <br />
           5a1. The System displays the current "Search results display
           strategy." <br />
           5a2. The User enters a customized "Search results display strategy,"
-          confirms she has finished entering, and returns to step 5 of normal
-          flow. <br />
-          <b>5b. The User chooses to re-sort search results </b> <br />
-          5b1. The User re-sorts the search result according to "Sort criteria"
-          defined in Associated Information of this use case and returns to step
-          5 of normal flow.
+          confirms that she has finished entering, and returns to step 5 of the normal flow. <br />
+          <b>5b. The User chooses to re-sort the search results </b> <br />
+          5b1. The User re-sorts the search result according to the "Sort criteria"
+          defined in the Associated Information of this use case and returns to step
+          5 of the normal flow.
         </td>
       </tr>
       <tr>
@@ -218,7 +217,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
     </table>
-
+See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog Student finds appearance requests](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.lg725m8k6v7b) and [Use Case 15: Spirit Director finds SuperFrog Students](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ifmhdqaelx3n).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -262,7 +261,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <td>Preconditions:</td>
         <td style="width: 80%; text-align: left" colspan="3">
           PRE-1. The User is logged into the System. <br />
-          PRE-2. The User has the "view" privilege. See Business Rules of this
+          PRE-2. The User has the "view" privilege. See the Business Rules of this
           use case.
         </td>
       </tr>
@@ -291,9 +290,9 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
             </li>
             <li>
               The System retrieves and displays the details of this
-              <em>&lt;whatever&gt;</em> according to "Details" defined in
-              Associated Information and "Security/access concerns" defined in
-              Business Rules of this use case.
+              <em>&lt;whatever&gt;</em> according to the "Details" defined in
+              the Associated Information and the "Security/access concerns" defined in
+              the Business Rules of this use case.
             </li>
             <li>
               The User views the details of this <em>&lt;whatever&gt;</em>.
@@ -376,9 +375,12 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
       </tr>
 </table>
 
+See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog Student views an appearance request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.dsnj8yei2233) and [Use Case 16: Spirit Director views a SuperFrog Student account](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.19z0lulk43dd).
+
 **[⬆ back to top](#table-of-contents)**
 
 <a name="create-a-whatever"></a>
+
 ## 3. Create a *&lt;whatever&gt;*
 
 <table style="text-align: right">
@@ -416,8 +418,8 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Preconditions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      PRE-1. The User is logged into the system. <br />
-      PRE-2. The User has the "create" privilege. See Business Rules of this
+      PRE-1. The User is logged into the System. <br />
+      PRE-2. The User has the "create" privilege. See the Business Rules of this
       use case. <br />
       PRE-3. If this <em>&lt;whatever&gt;</em> is a dependent object, in
       other words, cannot exist by itself, the dependency object must exist
@@ -439,29 +441,29 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         </li>
         <li>
           The System asks the User to enter the details of this new
-          <em>&lt;whatever&gt;</em> according to "Details" defined in
-          Associated Information of this use case.
+          <em>&lt;whatever&gt;</em> according to the "Details" defined in
+          the Associated Information of this use case.
         </li>
         <li>
           The User enters the details of this new
-          <em>&lt;whatever&gt;</em> and confirms she has finished.
+          <em>&lt;whatever&gt;</em> and confirms that she has finished.
         </li>
         <li>
-          The System validates the User's inputs according to "Details"
-          defined in Associated Information of this use case.
+          The System validates the User's inputs according to the "Details"
+          defined in the Associated Information of this use case.
         </li>
         <li>
           The System validates that the creation of the new
           <em>&lt;whatever&gt;</em> will not duplicate any existing
-          <em>&lt;whatever&gt;</em> according to "Duplication detection
-          rules" defined in Associated Information of this use case.
+          <em>&lt;whatever&gt;</em> according to the "Duplication detection
+          rules" defined in the Associated Information of this use case.
         </li>
         <li>
           The System displays the details of the new
-          <em>&lt;whatever&gt;</em> and asks the User to confirm creation.
+          <em>&lt;whatever&gt;</em> and asks the User to confirm the creation.
         </li>
         <li>
-          The User either confirms creation (continues normal flow) or
+          The User either confirms the creation (continues the normal flow) or
           chooses to modify the details (return to step 3).
         </li>
         <li>
@@ -469,9 +471,9 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           User that this <em>&lt;whatever&gt;</em> has been created.
         </li>
         <li>
-          The System notifies relevant actors about the creation of
-          <em>&lt;whatever&gt;</em> according to "Notification" defined in
-          Associated Information of this use case.
+          The System notifies relevant actors about the creation of the
+          <em>&lt;whatever&gt;</em> according to the "Notification" defined in
+          the Associated Information of this use case.
         </li>
         <li>Use case ends.</li>
       </ol>
@@ -483,17 +485,16 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
       <b>4a. Input validation rule violation</b> <br />
       4a1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error.<br />
-      4a2. The User corrects the mistake and returns to step 4 of normal
-      flow.<br />
+      4a2. The User corrects the mistake and returns to step 4 of the normal flow.<br />
       <b
-        >5a. The System finds possible duplicates of existing
-        <em>&lt;whatever&gt;</em></b
+        >5a. The System finds possible duplicates from the existing
+        <em>&lt;whatever&gt;</em>s</b
       ><br />
       5a1. The System alerts the User that the <em>&lt;whatever&gt;</em> she
       is trying to create already exists in the System.<br />
       5a2. <em>&lt;Specify how to handle it here&gt;</em>.<br />
-      5a3. The User either chooses to correct the mistake and returns to
-      step 4 of normal flow or chooses to terminate the use case.<br />
+      5a3. The User either chooses to correct the mistake and return to
+      step 4 of the normal flow or chooses to terminate the use case.<br />
     </td>
   </tr>
   <tr>
@@ -624,7 +625,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Related Use Cases:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      The User may first choose to UC-01: Find <em>&lt;whatever&gt;</em>s but
+        The User may first choose to <ins>UC-01: Find <em>&lt;whatever&gt;</em>s</ins> but
       cannot find any, then decide to create one.
     </td>
   </tr>
@@ -638,8 +639,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   </tr>
 </table>
 
-
-
+See examples that adopt this template: [Use Case 1: Customer requests a SuperFrog appearance](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.roq29be23wgv) and [Use Case 13: Spirit Director creates account for a new SuperFrog Student](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.q9b056hngmki).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -683,9 +683,9 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
     <td>Preconditions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       PRE-1. The User is logged into the System. <br />
-      PRE-2. The User has the "change" privilege. See Business Rules of this
+      PRE-2. The User has the "change" privilege. See the Business Rules of this
       use case. <br />
-      PRE-3. <em>&lt;whatever&gt;</em> can be changed after creation. <br />
+      PRE-3. <em>&lt;whatever&gt;</em> can be changed after the creation. <br />
     </td>
   </tr>
   <tr>
@@ -715,38 +715,38 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         </li>
         <li>
           The System asks the User to make changes to this
-          <em>&lt;whatever&gt;</em> where allowed according to "Details"
-          defined in Associated Information and "Security/access concerns"
-          defined in Business Rules of this use case.
+          <em>&lt;whatever&gt;</em> where allowed according to the "Details"
+          defined in the Associated Information and the "Security/access concerns"
+          defined in the Business Rules of this use case.
         </li>
         <li>
-          The User makes changes to this <em>&lt;whatever&gt;</em> until
-          confirming that she has finished changing.
+          The User makes changes to this <em>&lt;whatever&gt;</em> until she
+          confirms that she has finished changing.
         </li>
         <li>
           The System validates the User's changes and alerts warning
-          messages according to "Details" defined in Associated Information
+          messages according to the "Details" defined in the Associated Information
           of this use case.
         </li>
         <li>The User acknowledges the warnings and chooses to continue.</li>
         <li>
           The System displays the updated details of this
-          <em>&lt;whatever&gt;</em> and alerts the User to confirm change.
+          <em>&lt;whatever&gt;</em> and alerts the User to confirm the change.
         </li>
         <li>
-          The User either confirms change (continues normal flow) or chooses
+          The User either confirms the change (continues the normal flow) or chooses
           to continue to change the details (return to step 5).
         </li>
         <li>
           The System saves the changes, carries out the effect of change
-          according to "Details" defined in Associated Information of this
+          according to the "Details" defined in the Associated Information of this
           use case, and informs the User that this
           <em>&lt;whatever&gt;</em> has been changed.
         </li>
         <li>
           The System notifies relevant actors about the change of
-          <em>&lt;whatever&gt;</em> according to "Notification" defined in
-          Associated Information of this use case.
+          <em>&lt;whatever&gt;</em> according to the "Notification" defined in
+          the Associated Information of this use case.
         </li>
         <li>Use case ends.</li>
       </ol>
@@ -758,8 +758,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
       <b>6a. Input validation rule violation</b> <br />
       6a1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error. <br />
-      6a2. The User corrects the mistake and returns to step 6 of normal
-      flow.
+      6a2. The User corrects the mistake and returns to step 6 of the normal flow.
     </td>
   </tr>
   <tr>
@@ -907,8 +906,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   </tr>
 </table>
 
-
-
+See examples that adopt this template: [Use Case 2: Customer edits request details](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.40n3tdbn3iga), [Use Case 8: Spirit Director edits basic information of a request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.idpfgklhh6ju), and [Use Case 20: SuperFrog Student edits profile information](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.rapr7stw6a0b).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -951,17 +949,17 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Preconditions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      PRE-1. The User is logged into the system. <br />
-      PRE-2. The User has the "delete" privilege. See Business Rules of this
+      PRE-1. The User is logged into the System. <br />
+      PRE-2. The User has the "delete" privilege. See the Business Rules of this
       use case. <br />
-      PRE-3. <em>&lt;whatever&gt;</em> can be deleted after creation.
+      PRE-3. <em>&lt;whatever&gt;</em> can be deleted after the creation.
     </td>
   </tr>
   <tr>
     <td>Postconditions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       POST-1. The <em>&lt;whatever&gt;</em> is deleted from the System
-      according to "Deletion strategy" defined in Associated Information of
+      according to the "Deletion strategy" defined in the Associated Information of
       this use case.
     </td>
   </tr>
@@ -982,27 +980,27 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <li>The User chooses to delete this <em>&lt;whatever&gt;</em>.</li>
         <li>
           The System validates that the deletion can be carried out
-          according to "Data integrity and deletion rules" and "Referring
-          objects handling strategy" defined in Associated Information of
+          according to the "Data integrity and deletion rules" and the "Referring
+          objects handling strategy" defined in the Associated Information of
           this use case.
         </li>
         <li>
           The System alerts the User of the consequences of this deletion
-          according to "Data integrity and deletion rules" defined in
-          Associated Information of this use case, warns the User about the
+          according to the "Data integrity and deletion rules" defined in
+          the Associated Information of this use case, warns the User about the
           deletion, and asks the User to confirm.
         </li>
-        <li>The User confirms deletion.</li>
+        <li>The User confirms the deletion.</li>
         <li>
-          The System deletes <em>&lt;whatever&gt;</em> according to
-          "Deletion strategy" and "Referring objects handling strategy"
-          defined in Associated Information of this use case and alerts the
+          The System deletes the <em>&lt;whatever&gt;</em> according to
+          the "Deletion strategy" and the "Referring objects handling strategy"
+          defined in the Associated Information of this use case and alerts the
           User that this <em>&lt;whatever&gt;</em> has been deleted.
         </li>
         <li>
           The System notifies relevant actors about the deletion of
-          <em>&lt;whatever&gt;</em> according to "Notification" defined in
-          Associated Information of this use case.
+          <em>&lt;whatever&gt;</em> according to the "Notification" defined in
+          the Associated Information of this use case.
         </li>
         <li>Use case ends.</li>
       </ol>
@@ -1126,7 +1124,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Related Use Cases:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      The User may first choose to UC-02: View a <em>&lt;whatever&gt;</em>,
+        The User may first choose to <ins>UC-02: View a <em>&lt;whatever&gt;</em></ins>,
       then decide to delete one.<br />
     </td>
   </tr>
@@ -1139,9 +1137,6 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
     <td style="width: 80%; text-align: left" colspan="3"></td>
   </tr>
 </table>
-
-
-
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1190,8 +1185,8 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Preconditions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      PRE-1. The User is logged into the system. <br />
-      PRE-2. The User has the "generate report" privilege. See Business
+      PRE-1. The User is logged into the System. <br />
+      PRE-2. The User has the "generate report" privilege. See the Business
       Rules of this use case.
     </td>
   </tr>
@@ -1207,34 +1202,33 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
     <td style="width: 80%; text-align: left" colspan="3">
       <ol>
         <li>
-          The User indicates to generate a
-          <em>&lt;report type&gt;</em> report.
+          The User indicates to generate a <em>&lt;report type&gt;</em> report.
         </li>
         <li>
           The System asks the User to provide configurable report generating
-          parameters according to "Report generating parameters" defined in
-          Associated Information of this use case.
+          parameters according to the "Report generating parameters" defined in
+          the Associated Information of this use case.
         </li>
         <li>
           The User enters the required parameters and confirms that she has
           finished entering.
         </li>
         <li>
-          The System validates the input parameters according to "Report
-          generating parameters" defined in Associated Information of this
+          The System validates the input parameters according to the "Report
+          generating parameters" defined in the Associated Information of this
           use case.
         </li>
         <li>
           The System generates the <em>&lt;report type&gt;</em> report
           according to the "Report generating algorithm" defined in
-          Associated Information of this use case and displays to the User
-          according to "Report generating parameters" defined in Associated
+          the Associated Information of this use case and displays to the User
+          according to the "Report generating parameters" defined in Associated
           Information of this use case.
         </li>
         <li>
           The System delivers the generated report according to the
-          specified report disposition in the specified format in "Report
-          generating parameters" defined in Associated Information of this
+          specified report disposition in the specified format in the "Report
+          generating parameters" defined in the Associated Information of this
           use case.
         </li>
         <li>Use case ends.</li>
@@ -1247,12 +1241,11 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
       <b>4a. Input validation rule violation</b> <br />
       4b1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error. <br />
-      4b2. The User corrects the mistake and returns to step 4 of normal
-      flow. <br>
+      4b2. The User corrects the mistake and returns to step 4 of the normal flow. <br>
       <b>5a. No data is returned</b> <br />
       5b1. The System alerts the User that no data is available in the
       generated report. <br />
-      5b2. The User chooses to return to step 3 of normal flow or terminate
+      5b2. The User either chooses to return to step 3 of the normal flow or chooses to terminate
       the use case. <br>
       <b
         >6a. The User chooses to "Save report generating parameters" for
@@ -1311,7 +1304,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <li>Pagination criteria if table visualization is selected</li>
         <li>
           Disposition of the report after it is generated. The options
-          available will be displayed in the system, sent to a recipient,
+          available will be displayed in the System, sent to a recipient,
           downloaded to local disk, printed, stored somewhere for future
           retrieval.
         </li>
@@ -1333,8 +1326,8 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   <tr>
     <td>Assumptions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      If the job is too large, the system prompts the User to select to run
-      the report immediately or to schedule a time for it to run. The system
+      If the job is too large, the System prompts the User to select to run
+      the report immediately or to schedule a time for it to run. The System
       will display a projected run time, based on historical run times.
     </td>
   </tr>
@@ -1344,6 +1337,6 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
   </tr>
 </table>
 
-
+See examples that adopt this template: [Use Case 18: Spirit Director generates TCU Honorarium (Payment for services) Request Forms](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ff9ddug0ipbh) and [Use Case 19: Spirit Director generates a SuperFrog Students performance report](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.gswvt5fhug5k).
 
 **[⬆ back to top](#table-of-contents)**

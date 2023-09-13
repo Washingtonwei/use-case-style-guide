@@ -151,7 +151,8 @@ A trigger is the initiator of a use case.
 ## 5. Use case description
 We require a one-sentence description for each use case.
   <a name="use-case-description--required"></a><a name="5.1"></a>
-  - [5.1](#use-case-description--required) Use "The *&lt;Primary Actor&gt;* wants to *&lt;completes a task&gt;* so that *&lt;goal and rationale&gt;*" to describe the gist of the use case in one sentence.
+  - [5.1](#use-case-description--required) Use "The *&lt;Primary Actor&gt;* wants to *&lt;completes a task&gt;* so that *&lt;goal and rationale&gt;*." to describe the gist of the use case in one sentence.
+    
     > Rationale: Use case description works as a summary of the use case. It is read by busy people.
 
 **[⬆ back to top](#table-of-contents)**
@@ -161,31 +162,31 @@ We require a one-sentence description for each use case.
 Use case action steps are sentences that form a use case's main success scenario and extensions. According to [Alistair Cockburn](https://g.co/kgs/Hy777n), a use case action step either describes an interaction between two actors e.g., "The Customer enters address information." or a validation step to protect interest of a stakeholder e.g., "The System validates the credentials." or an internal change to satisfy a stakeholder e.g., "The System deducts amount from balance." Our style guide complements Cockburn's classic 10 action step writing guidelines by recommending proper words and sentence structures.
 
   <a name="action-steps--primary-actor-intention"></a><a name="6.1"></a>
-  - [6.1](#action-steps--primary-actor-intention) Use the following wording and sentence structure to describe the Primary Actor's intention (Corresponds to Cockburn's interaction between two actors)
+  - [6.1](#action-steps--primary-actor-intention) Use the following wording and sentence structure to describe the Primary Actor's intention (Corresponds to Cockburn's interaction between two actors):
     - The *&lt;Primary Actor&gt;* indicates to/selects to/chooses to/requests to/attempts to . . .
     - The *&lt;Primary Actor&gt;* submits . . .
     - The *&lt;Primary Actor&gt;* views . . .
     - The *&lt;Primary Actor&gt;* verifies . . . and confirms . . .
-    - The *&lt;Primary Actor&gt;* enters/provides/specifies . . . and confirms she has finished entering.
+    - The *&lt;Primary Actor&gt;* enters/provides/specifies . . . and confirms that she has finished entering.
     - The *&lt;Primary Actor&gt;* continues entering . . .
-    - The *&lt;Primary Actor&gt;* . . . until confirming that she has finished . . .
+    - The *&lt;Primary Actor&gt;* . . . until she confirms that she has finished . . .
     - The *&lt;Primary Actor&gt;* acknowledges . . . (e.g., the alert or warning) and confirms to continue.
     - The *&lt;Primary Actor&gt;* ignores the warning/alarm and confirms to continue.
 
   <a name="action-steps--systen-internal-processing"></a><a name="6.2"></a>
-  - [6.2](#action-steps--systen-internal-processing) Use the following wording and sentence structure to describe the system internal processing (Corresponds to Cockburn's validation step and internal change)
+  - [6.2](#action-steps--systen-internal-processing) Use the following wording and sentence structure to describe the system internal processing (Corresponds to Cockburn's validation step and internal change):
     - The System validates, saves, records, calculates, updates, deletes, creates, retrieves, triggers . . .
 
   <a name="action-steps--system-interaction"></a><a name="6.3"></a>
-  - [6.3](#action-steps--system-interaction) Use the following wording and sentence structure to describe an interaction started by the System (Corresponds to Cockburn's interaction between two actors)
-    - The System displays/shows/presents/informs . . . according to . . . defined in the Associated Information of this use case. (This is usually the information retrieved from a data source. For example, a list of products or a graph of stats. The previous action step may be "The System retrieves . . . ")
+  - [6.3](#action-steps--system-interaction) Use the following wording and sentence structure to describe an interaction started by the System (Corresponds to Cockburn's interaction between two actors):
+    - The System displays/shows/presents/informs . . . according to . . . defined in the Associated Information of this use case. (This is usually the information retrieved from a data source. For example, a list of products or a graph of stats. The previous action step may be "The System retrieves . . . ".)
     - The System alerts/warns/alarms . . . (This is used when something is about to break the business rule, or something is about the change the state of the system, usually occurs in extensions.)
-    - The System asks the *&lt;Primary Actor&gt;* to enter . . . according to . . . defined in Associated Information of this use case.
+    - The System asks the *&lt;Primary Actor&gt;* to enter . . . according to . . . defined in the Associated Information of this use case.
     - The System prompts the *&lt;Primary Actor&gt;* . . . (The system knows some information that would help the user decide what to do next) or The System offers . . . options/methods/choices . . .
     - The System notifies/sends *&lt;Secondary Actors&gt;* . . .
 
   <a name="action-steps--system-to-system-interaction"></a><a name="6.4"></a>
-  - [6.4](#action-steps--system-to-system-interaction) Use the following wording and sentence structure to describe an interaction between the System and another system in the environment (Corresponds to Cockburn's interaction between two actors)
+  - [6.4](#action-steps--system-to-system-interaction) Use the following wording and sentence structure to describe an interaction between the System and another system in the environment (Corresponds to Cockburn's interaction between two actors):
     - The System has another system do something.
     - The System requests another system to do something.
     - Another System provides . . .
@@ -214,9 +215,9 @@ Use case action steps are sentences that form a use case's main success scenario
 ## 7. Extensions
 An extension describes either an exception of a step in the main success scenario or an alternative success scenario.
   <a name="extensions--syntax"></a><a name="7.1"></a>
-  - [7.1](#extensions--syntax) Use the following wording and sentence structure to describe the handling of use case extensions.
+  - [7.1](#extensions--syntax) Use the following wording and sentence structure to describe the handling of use case extensions:
     - The System alerts the *&lt;Primary Actor&gt;* that an input validation rule is violated and displays the nature and location of the error.
-    - The *&lt;Primary Actor&gt;* corrects the mistake, then returns to step . . . of normal flow.
+    - The *&lt;Primary Actor&gt;* corrects the mistake, then returns to step . . . of the normal flow.
     - The *&lt;Primary Actor&gt;* chooses to terminate the use case.
 
 **[⬆ back to top](#table-of-contents)**
@@ -226,7 +227,7 @@ An extension describes either an exception of a step in the main success scenari
 It is recommended to include data requirements when specifying a use case. We use terminologies like "details" or "property lists" to denote data requirements.
   <a name="data-requirements--syntax"></a><a name="8.1"></a>
 
-  - [8.1](#data-requirements--syntax) Use tabular format to describe the Primary Actor's input and the System's output data in Associated Information section of a use case . Each row describes one detail or property. Each column represents one characteristic of interest to the action steps in the use case.
+  - [8.1](#data-requirements--syntax) Use tabular format to describe the Primary Actor's input and the System's output data in the Associated Information section of a use case . Each row describes one detail or property. Each column represents one characteristic of interest to the action steps in the use case.
 
     | Property name | Data type | Changeability | Validation rule | Glossary |
     | ------------- | --------- | ------------- | --------------- | -------- |
@@ -239,7 +240,7 @@ It is recommended to include data requirements when specifying a use case. We us
 Business rules include corporate policies, government regulations, laws, industry standards, and computational algorithms.
   <a name="business-rules--syntax"></a><a name="9.1"></a>
 
-  - [9.1](#business-rules--syntax) Specify related business rules (e.g., security and access control requirements) in the business rules section.
+  - [9.1](#business-rules--syntax) Specify related business rules (e.g., security and access control requirements) in the business rules section:
     - Identify any relevant business rules concerning security/access.
     - Specify more finer-grained access control.
     - Specify any limitations regarding which individuals, groups, or organizations are permitted to initiate this use case or which data they are permitted to access.
