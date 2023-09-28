@@ -95,22 +95,22 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
       <tr>
         <td>Extensions:</td>
         <td style="width: 80%; text-align: left" colspan="3">
-          <b>4a. No matching is found</b> <br />
+          <b>4a. No matching <em>&lt;whatever&gt;</em>s are found:</b> <br />
           4a1. The System alerts the User that no matching
-          <em>&lt;whatever&gt;</em> is found. <br />
+          <em>&lt;whatever&gt;</em>s are found. <br />
           4a2. The User either chooses to <ins>UC-03: create a
             <em>&lt;whatever&gt;</em></ins> or chooses to terminate the use case or chooses to return to step
           2 of the normal flow. <br />
           <b
             >5a. The User chooses to select a different set of properties to
-            display the matching <em>&lt;whatever&gt;</em>s</b
+            display the matching <em>&lt;whatever&gt;</em>s:</b
           >
           <br />
           5a1. The System displays the current "Search results display
           strategy." <br />
           5a2. The User enters a customized "Search results display strategy,"
           confirms that she has finished entering, and returns to step 5 of the normal flow. <br />
-          <b>5b. The User chooses to re-sort the search results </b> <br />
+          <b>5b. The User chooses to re-sort the search results: </b> <br />
           5b1. The User re-sorts the search result according to the "Sort criteria"
           defined in the Associated Information of this use case and returns to step
           5 of the normal flow.
@@ -217,6 +217,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
     </table>
+
 See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog Student finds appearance requests](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.lg725m8k6v7b) and [Use Case 15: Spirit Director finds SuperFrog Students](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ifmhdqaelx3n).
 
 **[⬆ back to top](#table-of-contents)**
@@ -482,13 +483,13 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
   <tr>
     <td>Extensions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      <b>4a. Input validation rule violation</b> <br />
+      <b>4a. Input validation rule violation:</b> <br />
       4a1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error.<br />
       4a2. The User corrects the mistake and returns to step 4 of the normal flow.<br />
       <b
         >5a. The System finds possible duplicates from the existing
-        <em>&lt;whatever&gt;</em>s</b
+        <em>&lt;whatever&gt;</em>s:</b
       ><br />
       5a1. The System alerts the User that the <em>&lt;whatever&gt;</em> she
       is trying to create already exists in the System.<br />
@@ -639,6 +640,7 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
   </tr>
 </table>
 
+
 See examples that adopt this template: [Use Case 1: Customer requests a SuperFrog appearance](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.roq29be23wgv) and [Use Case 13: Spirit Director creates account for a new SuperFrog Student](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.q9b056hngmki).
 
 **[⬆ back to top](#table-of-contents)**
@@ -755,7 +757,7 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
   <tr>
     <td>Extensions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      <b>6a. Input validation rule violation</b> <br />
+      <b>6a. Input validation rule violation:</b> <br />
       6a1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error. <br />
       6a2. The User corrects the mistake and returns to step 6 of the normal flow.
@@ -906,6 +908,7 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
   </tr>
 </table>
 
+
 See examples that adopt this template: [Use Case 2: Customer edits request details](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.40n3tdbn3iga), [Use Case 8: Spirit Director edits basic information of a request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.idpfgklhh6ju), and [Use Case 20: SuperFrog Student edits profile information](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.rapr7stw6a0b).
 
 **[⬆ back to top](#table-of-contents)**
@@ -1009,7 +1012,7 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
   <tr>
     <td>Extensions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      <b>4a. Data integrity and deletion rule violation</b> <br />
+      <b>4a. Data integrity and deletion rule violation:</b> <br />
       4a1. The System alerts the User that a deletion rule is violated and
       displays the nature of the violation. <br />
       4a2. The System prompts possible actions to resolve the violation.
@@ -1138,6 +1141,7 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
   </tr>
 </table>
 
+
 **[⬆ back to top](#table-of-contents)**
 
 <a name="generate-a-report"></a>
@@ -1238,18 +1242,18 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
   <tr>
     <td>Extensions:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      <b>4a. Input validation rule violation</b> <br />
+      <b>4a. Input validation rule violation:</b> <br />
       4b1. The System alerts the User that an input validation rule is
       violated and displays the nature and location of the error. <br />
       4b2. The User corrects the mistake and returns to step 4 of the normal flow. <br>
-      <b>5a. No data is returned</b> <br />
+      <b>5a. No data is returned:</b> <br />
       5b1. The System alerts the User that no data is available in the
       generated report. <br />
       5b2. The User either chooses to return to step 3 of the normal flow or chooses to terminate
       the use case. <br>
       <b
         >6a. The User chooses to "Save report generating parameters" for
-        future reuse</b
+        future reuse:</b
       >
       <br />
       6a1. The System asks the User to enter a name for the current set of
@@ -1336,6 +1340,7 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     <td style="width: 80%; text-align: left" colspan="3"></td>
   </tr>
 </table>
+
 
 See examples that adopt this template: [Use Case 18: Spirit Director generates TCU Honorarium (Payment for services) Request Forms](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ff9ddug0ipbh) and [Use Case 19: Spirit Director generates a SuperFrog Students performance report](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.gswvt5fhug5k).
 

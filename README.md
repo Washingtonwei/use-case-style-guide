@@ -215,10 +215,26 @@ Use case action steps are sentences that form a use case's main success scenario
 ## 7. Extensions
 An extension describes either an exception of a step in the main success scenario or an alternative success scenario.
   <a name="extensions--syntax"></a><a name="7.1"></a>
-  - [7.1](#extensions--syntax) Use the following wording and sentence structure to describe the handling of use case extensions:
+
+  - [7.1](#extensions--syntax) The extension condition is followed by the colon (:) punctuation and boldfaced:
+
+    - Positive example: **6a. Input validation rule violation:**
+    - Negative example: 6a. Input validation rule violation.
+    - Negative example: 6a. Input validation rule violation
+
+  - [7.2](#extensions--syntax) Use the following wording and sentence structure to describe the handling of use case extensions:
+
     - The System alerts the *&lt;Primary Actor&gt;* that an input validation rule is violated and displays the nature and location of the error.
     - The *&lt;Primary Actor&gt;* corrects the mistake, then returns to step . . . of the normal flow.
     - The *&lt;Primary Actor&gt;* chooses to terminate the use case.
+
+    Here is an example of an extension condition and its handling steps:
+
+    **6a. Input validation rule violation:**
+
+    ​	6a1. The System alerts the Customer that an input validation rule is violated and displays the nature and location of the 	error.
+
+    ​	6a2. The Customer corrects the mistake and returns to step 6 of the normal flow.
 
 **[⬆ back to top](#table-of-contents)**
 
